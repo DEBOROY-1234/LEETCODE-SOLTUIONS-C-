@@ -13,6 +13,7 @@ struct Node
         right = NULL;
     }
 };
+
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
