@@ -9,10 +9,12 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
-    #include<bits/stdc++.h>
-using namespace std;
+   
     vector<double> averageOfLevels(TreeNode* root) {
         vector<double> res;
         
