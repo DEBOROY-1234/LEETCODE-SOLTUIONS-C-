@@ -6,6 +6,7 @@ Generalization: Dividing N times. creates N+1 pieces.*/
 We are iterating over the size of bags (which can range upto 10^9)
 In each iteration we consider the mid to be the final penalty score that we can get after dividing the bag.
 Considering the mid element as penalty score we calculate the number of operations required to reach that score. If the number of operations required to reach the score is more than the maximum operations allowed, then we move the left pointer to the mid + 1 so that we can have penalty score greater than before which can be achieved by less number of operations. Similarly if the number of operations is less than max allowed operations than we can surely select a penalty score which is less than the current score therefore we shift right pointer to the mid in the hope that we will get a lower penalty score.*/
+      
         
 class Solution {
 public:
